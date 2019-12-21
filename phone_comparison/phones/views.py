@@ -10,9 +10,6 @@ def show_catalog(request):
     xiaomi = Xiaomi.objects.all()
     phones = [iphone, samsung, xiaomi]
     context = {
-                'iphone': iphone,
-                'samsung': samsung,
-                'xiaomi': xiaomi,
                 'phones': phones
     }
 
